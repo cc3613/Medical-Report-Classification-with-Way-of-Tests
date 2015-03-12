@@ -1,1 +1,3 @@
 # Medical-Report-Classification-with-Way-of-Tests
+
+Combing scraping technique and machine learning techniques for this mini-project. The main purpose is to see how well I can combine these skills together in one project. The reports are manually tagged by which test is run for each case (MRI, CT scan, and others). half of the cases are used to train while the other half are used to test. The technique is to scrape for the key words in each report, and naive bayes is used through each layer (dimension) of keywords (each keyword is a layer.) Cross validation is done 10 times to ensure no outliers. The average accuracy is 51%.
